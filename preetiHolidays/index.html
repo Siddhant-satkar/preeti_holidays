@@ -47,21 +47,26 @@
         </a>
 
         <a href="#" class="logo">
-          <img src="./assets/images/preetiLogo.png" alt="Preeti Holidays logo">
+          <img src="./assets/images/phLogo.png" alt="Preeti Holidays logo">
         </a>
 
         <div class="header-btn-group">
 
-          <button class="search-btn" aria-label="Search">
-            <ion-icon name="search"></ion-icon>
-          </button>
+          <div class="tooltip-container">
+
+            <a href="https://wa.me/919702574495" target="_blank" class="header-whatsapp">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+
+            <span class="tooltip-text">Chat on WhatsApp</span>
+
+          </div>
 
           <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
             <ion-icon name="menu-outline"></ion-icon>
           </button>
 
         </div>
-
       </div>
     </div>
 
@@ -93,11 +98,11 @@
         <nav class="navbar" data-navbar>
 
           <div class="navbar-top">
-
+<!--
             <a href="#" class="logo">
               <img src="./assets/images/logo-blue.svg" alt="Preeti Holidays logo">
             </a>
-
+-->
             <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
               <ion-icon name="close-outline"></ion-icon>
             </button>
@@ -138,8 +143,13 @@
 
         </nav>
 
-        <button class="btn btn-primary">Book Now</button>
+        <!-- <button class="btn btn-primary">Book Now</button> -->
 
+        <a href="https://forms.gle/vP5fTgeTqSMgX1j88" 
+          target="_blank" 
+          class="btn btn-primary">
+          Inquire Now
+        </a>
       </div>
     </div>
 
@@ -157,16 +167,22 @@
           </p>
 
           <div class="btn-group">
-            <button class="btn btn-primary">Learn more</button>
+            <a href="#learn-more-section" class="btn btn-secondary">
+              Learn More
+            </a>
 
-            <button class="btn btn-secondary">Book now</button>
+            <a href="https://forms.gle/vP5fTgeTqSMgX1j88" 
+              target="_blank" 
+              class="btn btn-primary">
+              Inquire Now
+            </a>
           </div>
 
         </div>
       </section>
       <!-- 
         - #TOUR SEARCH
-      -->
+      
       <section class="tour-search">
         <div class="container">
 
@@ -203,7 +219,37 @@
 
         </div>
       </section>
+-->
 
+      <section id="learn-more-section" class="learn-more">
+
+        <h2>Why Choose Preeti Holidays?</h2>
+
+        <p>
+          We create memorable travel experiences with affordable packages,
+          trusted planning, and complete support throughout your journey.
+        </p>
+
+        <div class="features">
+
+          <div class="feature-box">
+            <h3>Affordable Packages</h3>
+            <p>Best travel experiences at budget-friendly prices.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>Customized Tours</h3>
+            <p>Packages designed according to your needs.</p>
+          </div>
+
+          <div class="feature-box">
+            <h3>24/7 Support</h3>
+            <p>Always available for your travel assistance.</p>
+          </div>
+
+        </div>
+
+      </section>
       <!-- 
         - #POPULAR
       -->
@@ -652,17 +698,17 @@
             </p>
           </div>
 
-          <button class="btn btn-secondary">Contact Us !</button>
+          <a href="https://forms.gle/vP5fTgeTqSMgX1j88"
+            target="_blank"
+            class="btn btn-outline">
+            CONTACT US
+          </a>
 
         </div>
       </section>
 
     </article>
   </main>
-
-
-
-
 
   <!-- 
     - #FOOTER
@@ -815,6 +861,14 @@
   </div>
 
 </footer>
+
+<a href="https://wa.me/919702574495"
+   class="floating-whatsapp"
+   target="_blank">
+
+   <ion-icon name="logo-whatsapp"></ion-icon>
+
+</a>
 
   <!-- 
     - #GO TO TOP
